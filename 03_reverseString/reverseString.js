@@ -1,4 +1,9 @@
-const reverseString = function() {
+const reverseString = function(palabra) {
+    let pseparada =[];
+    let salida ="";
+    pseparada = palabra.split("");
+    salida = pseparada.reverse().join("");
+    return salida;
 
 };
 
